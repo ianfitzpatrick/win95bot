@@ -1,0 +1,7 @@
+*.pyc
+.DS_Store
+*.DS_Store
+logos/
+sftp-config.json
+*.psd
+graphics/
