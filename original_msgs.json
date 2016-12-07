@@ -1,0 +1,61 @@
+{
+    "accessible": [
+                    "Large fonts, high-contrast color schemes, large mouse pointers, and pointer trails make your screen easier to read.",
+                    "FilterKeys, StickyKeys and MouseKeys make your keyboard and mouse pointer easier to control.",
+                    "SoundSentry provides you with visual alerts and warnings."
+                  ],
+    "communicate":[
+                    "Use the Inbox to view E-mail, faxes, files, forms and other information, all from the same place.",
+                    "Connect directly to multiple E-mail systems and information services.",
+                    "Use rich text to personalize your E-mail messages with different fonts, colors, and styles."
+                  ],
+    "easier":     [
+                    "Click the Start button to quickly open programs, find documents, and use system tools.",
+                    "Use the taskbar to switch between programs as easily as changing channels on your TV.",
+                    "Use long filenames to make your files easier to organize and find."
+                  ],
+    "fun":        [
+                    "Faster video revs up the action in the games you play.",
+                    "MS-DOS based games run better and more reliably.",
+                    "High-quality multimedia performance will dazzle you."
+                  ],
+    "moredone":   [
+                    "Windows Explorer is a powerful way to browse and manage your files, drives, and network connections.",
+                    "Use drag and drop to move or copy files and folders, or to create shortcuts to programs.",
+                    "Click the right mouse button for a quick menu of common commands."
+                  ],
+    "msn":        [
+                    "Communicate with people world-wide, using e-mail, bulletin boards, and the Internet.",
+                    "Get news, information, and services with a simple phone call from wherever you are.",
+                    "Access the latest product information and technical support directly from Microsoft."
+                  ],
+    "pnp":        [
+                    "Windows 95 automatically sets up Plug and Play-compatible devices (such as printers, CD-ROM drives, modems, and video and sound cards).",
+                    "You can event insert and remove certain devices while Windows 95 is running.",
+                    "Look for the \"Designed for Windows 95\" logo on Plug and Play devices."
+                  ],
+    "powerful":   [
+                    "Smoother multitasking lets you use many programs at once: do more in less time!",
+                    "32-bit networking provides speed and reliability at your desk or on the road.",
+                    "Windows 95 has faster printing and disk access."
+                  ],
+    "register":   [
+                    "Notification of updates and new products.",
+                    "Access to technical support.",
+                    "Information about other services available from Microsoft."
+                  ],
+    "road":       [
+                    "Dial-Up Networking makes it easy to connect to remote computers or networks by using your modem.",
+                    "The Briefcase keeps files updated between your portable and your desktop PC.",
+                    "Plug and Play makes it easy to take your portable on the road."
+                  ],
+    "started":    [
+                    "Quickly learn how to do the most common tasks in Windows 95",
+                    "Get answers to the questions most asked by Windows 3.1 users."
+                  ],
+    "Welcome":    [
+                    "What you do now will be easier and faster.",
+                    "What you want to do, and more, is now possible.",
+                    "Whatever you do will be more fun."
+                  ]
+}

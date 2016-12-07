@@ -1,7 +1,6 @@
-import os
+import os, json
 from textwrap import wrap
 from PIL import Image, ImageDraw, ImageFont
-
 
 # DEV
 BOTDIR = os.getcwd() + '/'
@@ -16,6 +15,7 @@ sprite_map_rows = [ ('W', 0, 22, 22),
                     ('frt()-;[], ', 154, 176, 4),
                     ("ijlI.!':|", 176, 198, 2)
                     ] 
+
 
 
 def build_sprite_map(chars, top, bottom, width):
@@ -129,11 +129,12 @@ def init_chars():
 
 # Run at startup
 chars = init_chars()
+with open('%soriginal_msgs.json' % BOTDIR) as data_file:
+    original_msgs = json.loads(data_file.read())
 
 # Running in shell for now
 # from draw_text import *
 # background = Image.open("%stemplates/accessible.png" % BOTDIR).convert('RGBA')
-# msgs = ["Large fonts, high-contrast color schemes, large mouse pointers, and pointer trails make your screen easier to read.", "FilterKeys, StickyKeys and MouseKeys make your keyboard and mouse pointer easier to control.", "Ease your sense of existential dread with our Fun Color Themes"]
 # result = composite_msgs(msgs, background, 500, 380, chars, wrap_width=57, bullet="-    ")
 # result.show()
 
