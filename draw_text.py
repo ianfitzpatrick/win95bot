@@ -9,8 +9,8 @@ sprite_map_rows = [ ('W', 0, 22, 22),
                     ('AMVXYZmw%', 44, 66, 14),
                     ('CDGHKNOPQRU#', 66, 88, 12),
                     ('BEFLTSabcdeghknopquvy234567890?$^&+', 88, 110, 10),
-                    ('J/"', 110, 132, 8),
-                    ('sxz1*', 132, 154, 6),
+                    ('Jsxz/"', 110, 132, 8),
+                    ('1*', 132, 154, 6),
                     ('frt()-;[]', 154, 176, 4),
                     ("ijlI.!':", 176, 198, 2)
                     ] 
@@ -83,12 +83,6 @@ chars = init_chars()
 # Running in shell for now
 # print_sprites('W', 500, 400, sprite_sheet, background)
 # background.show()
-
-
-
-
-
-
 
 
 
