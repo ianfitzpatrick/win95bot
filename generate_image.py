@@ -1,4 +1,4 @@
-import os, json
+import os
 from textwrap import wrap
 from PIL import Image, ImageDraw, ImageFont
 
@@ -127,16 +127,12 @@ def init_chars():
     sprite_dict = build_sprite_dict(sprite_map, sprite_img)
     return sprite_dict
 
-# Run at startup
-chars = init_chars()
-with open('%soriginal_msgs.json' % BOTDIR) as data_file:
-    original_msgs = json.loads(data_file.read())
+def generate_image(msgs, screen, BOTDIR):
+    chars = init_chars()
+    background = Image.open("%s/templates/%s.png" % (BOTDIR, screen) ).convert('RGBA')
+    result = composite_msgs(msgs, background, 500, 380, chars, wrap_width=57, bullet="-    ")
+    result.show()
 
-# Running in shell for now
-# from draw_text import *
-# background = Image.open("%stemplates/accessible.png" % BOTDIR).convert('RGBA')
-# result = composite_msgs(msgs, background, 500, 380, chars, wrap_width=57, bullet="-    ")
-# result.show()
 
 
 

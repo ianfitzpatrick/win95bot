@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-import tweepy, time, os, sys
-from image_gen import image_gen
+import tweepy, time, os, sys, yaml
+from generate_messages import genernate_messages
+from generate_image import generate_image
 
 # Load twitter credentials for this bot from config file
 BOTCRED_FILE = '%s/.botcreds' % os.path.expanduser('~') 
@@ -20,6 +21,7 @@ api = tweepy.API(auth)
 
 # Generate image and tweet
 BOTDIR = sys.path[0]
-logo = gen_image(BOTDIR)
-api.update_with_media(img)
+msgs, screen = genernate_messages(BOTDIR)
+img = generate_image(msgs, screen, BOTDIR)
+# api.update_with_media(img)
 
