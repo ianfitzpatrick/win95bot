@@ -8,6 +8,7 @@ def random_from_list(term_list, logfile, minimum_freshness=1, max_retry=500 ):
 
     Keep trying until get a valid result.
     """
+        
     log = open('%s/%s' % (PROJDIR, logfile), 'rb').read().split('\n')    
     log.reverse() # Newest entries at top
     log = log[0:minimum_freshness]
