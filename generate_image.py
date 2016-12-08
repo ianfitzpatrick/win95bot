@@ -131,7 +131,7 @@ def generate_image(msgs, screen, BOTDIR):
     chars = init_chars()
     background = Image.open("%s/templates/%s.png" % (BOTDIR, screen) ).convert('RGBA')
     result = composite_msgs(msgs, background, 500, 380, chars, wrap_width=57, bullet="-    ")
-    result.show()
+    return result.save("tweetme.png", "PNG")
 
 
 
