@@ -26,5 +26,5 @@ api = tweepy.API(auth)
 BOTDIR = sys.path[0]
 msgs, screen = genernate_messages(BOTDIR)
 img = generate_image(msgs, screen, BOTDIR)
-# api.update_with_media('%s/tweetme.png' % BOTDIR)
+api.update_with_media('%s/tweetme.png' % BOTDIR)
 
